@@ -1,0 +1,6 @@
+{
+  "name": "Threads & Textures: Custom Weave Studio",
+  "description": "Sophisticated real-time fabric and garment customization studio featuring photorealistic 3D silk blouse rendering, custom weave selection, Pantone color matching, and tileable textile prints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-atelier-bg: #F5F2EB;
+  --color-atelier-card: #FAF8F5;
+  --color-atelier-dark: #1A1918;
+  --color-atelier-border: rgba(30, 27, 24, 0.08);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F5F2EB;
+  color: #1A1918;
+  overflow-x: hidden;
+}
+
+/* Custom fine scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 27, 24, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 27, 24, 0.28);
+}
+
+/* Texture blend canvas utility */
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+.blend-overlay {
+  mix-blend-mode: overlay;
+}
+.blend-soft-light {
+  mix-blend-mode: soft-light;
+}
+.blend-color {
+  mix-blend-mode: color;
+}
+
